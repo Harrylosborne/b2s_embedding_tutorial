@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Breaks the Internet</title>
+    <!--tag on tab-->
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  </head>
+  <body>
+    <h1>What's up guys, Ali-A here back with another Fortnite banger 🐱‍👓</h1>
+    <!--header text-->
+    <button id="exportPDF">Export PDF</button>
+    <!--buttons!!-->
+    <button id="exportPP">Export PowerPoint</button>
+    <h2>Filters go here!</h2>
+    <input type="number" placeholder="Min Value" id="minValue" />
+    <input type="number" placeholder="Max Value" id="maxValue" />
+    <button id="filterButton">Filter!</button>
+    <div id="vizContainer"></div>
+    <!--container for the embedded viz-->
+    <script src="./app.js"></script>
+    <!---JS script (separate file in the same repository), borrows book from Tableau library (uses API); goes at bottom as it's JS so needs to interact with the HTML, but not the other way around-->
+  </body>
+</html>
